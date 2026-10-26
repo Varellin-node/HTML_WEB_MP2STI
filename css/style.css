@@ -1,12 +1,4 @@
-/* =========================================================
-   TECHNOVA — STUDENT PORTFOLIO
-   style.css
-   ========================================================= */
 
-
-/* =========================================================
-   1. ROOT VARIABLES
-   ========================================================= */
 
 :root {
     --primary: #2563eb;
@@ -39,9 +31,7 @@
 }
 
 
-/* =========================================================
-   2. RESET
-   ========================================================= */
+
 
 * {
     margin: 0;
@@ -82,9 +72,7 @@ ul {
 }
 
 
-/* =========================================================
-   3. GLOBAL
-   ========================================================= */
+
 
 .container {
     width: min(92%, var(--container));
@@ -137,9 +125,7 @@ ul {
 }
 
 
-/* =========================================================
-   4. NAVBAR
-   ========================================================= */
+
 
 .navbar {
     position: fixed;
@@ -167,7 +153,7 @@ ul {
 }
 
 
-/* Logo */
+
 
 .logo {
     display: inline-flex;
@@ -199,7 +185,7 @@ ul {
 }
 
 
-/* Navigation */
+
 
 .nav-menu {
     display: flex;
@@ -247,7 +233,7 @@ ul {
 }
 
 
-/* Mobile menu button */
+
 
 .menu-toggle {
     display: none;
@@ -277,9 +263,7 @@ ul {
 }
 
 
-/* =========================================================
-   5. HERO
-   ========================================================= */
+
 
 .hero {
     position: relative;
@@ -333,7 +317,7 @@ ul {
 }
 
 
-/* Hero content */
+
 
 .hero-content {
     width: 52%;
@@ -388,7 +372,7 @@ ul {
 }
 
 
-/* Hero buttons */
+
 
 .hero-buttons {
     display: flex;
@@ -450,7 +434,7 @@ ul {
 }
 
 
-/* Hero statistics */
+
 
 .hero-stats {
     display: flex;
@@ -479,9 +463,7 @@ ul {
 }
 
 
-/* =========================================================
-   6. HERO VISUAL
-   ========================================================= */
+
 
 .hero-visual {
     width: 44%;
@@ -540,7 +522,7 @@ ul {
 }
 
 
-/* Decorations */
+
 
 .image-decoration {
     position: absolute;
@@ -575,7 +557,7 @@ ul {
 }
 
 
-/* Floating cards */
+
 
 .floating-card {
     position: absolute;
@@ -640,9 +622,7 @@ ul {
 }
 
 
-/* =========================================================
-   7. ABOUT
-   ========================================================= */
+
 
 .about {
     background: var(--white);
@@ -710,9 +690,7 @@ ul {
 }
 
 
-/* =========================================================
-   8. PORTFOLIO
-   ========================================================= */
+
 
 .portfolio {
     background: var(--background);
@@ -756,7 +734,7 @@ ul {
 }
 
 
-/* Portfolio grid */
+
 
 .portfolio-grid {
     display: flex;
@@ -791,7 +769,7 @@ ul {
 }
 
 
-/* Portfolio image */
+
 
 .portfolio-image {
     position: relative;
@@ -834,7 +812,7 @@ ul {
 }
 
 
-/* Portfolio content */
+
 
 .portfolio-content {
     padding: 25px;
@@ -868,7 +846,7 @@ ul {
 }
 
 
-/* Technology tags */
+
 
 .tech-stack {
     display: flex;
@@ -909,9 +887,7 @@ ul {
 }
 
 
-/* =========================================================
-   9. CERTIFICATION
-   ========================================================= */
+
 
 .certification {
     background: var(--white);
@@ -1021,9 +997,7 @@ ul {
 }
 
 
-/* =========================================================
-   10. CONTACT / TEAM
-   ========================================================= */
+
 
 .contact {
     background: var(--background);
@@ -1060,7 +1034,7 @@ ul {
 }
 
 
-/* Member image */
+
 
 .member-image {
     width: 100%;
@@ -1089,7 +1063,7 @@ ul {
 }
 
 
-/* Member info */
+
 
 .member-role {
     color: var(--primary);
@@ -1111,7 +1085,7 @@ ul {
 }
 
 
-/* Social links */
+
 
 .social-links {
     display: flex;
@@ -1145,9 +1119,7 @@ ul {
 }
 
 
-/* =========================================================
-   11. FOOTER
-   ========================================================= */
+
 
 .footer {
     background: var(--dark);
@@ -1215,9 +1187,7 @@ ul {
 }
 
 
-/* =========================================================
-   12. SCROLL ANIMATION
-   ========================================================= */
+
 
 .about-card,
 .portfolio-card,
@@ -1229,9 +1199,7 @@ ul {
 }
 
 
-/* =========================================================
-   13. RESPONSIVE — TABLET
-   ========================================================= */
+
 
 @media (max-width: 900px) {
 
@@ -1240,14 +1208,14 @@ ul {
     }
 
 
-    /* Navbar */
+    
 
     .nav-menu {
         gap: 22px;
     }
 
 
-    /* Hero */
+    
 
     .hero {
         padding-top: 130px;
@@ -1278,21 +1246,21 @@ ul {
     }
 
 
-    /* Portfolio */
+    
 
     .portfolio-card {
         width: calc(50% - 12.5px);
     }
 
 
-    /* Team */
+    
 
     .member-card {
         width: calc(50% - 10px);
     }
 
 
-    /* Certificates */
+    
 
     .certificate-card {
         width: 100%;
@@ -1301,9 +1269,7 @@ ul {
 }
 
 
-/* =========================================================
-   14. RESPONSIVE — MOBILE
-   ========================================================= */
+
 
 @media (max-width: 700px) {
 
@@ -1312,7 +1278,7 @@ ul {
     }
 
 
-    /* Navbar */
+    
 
     .nav-container {
         min-height: 68px;
@@ -1372,7 +1338,7 @@ ul {
     }
 
 
-    /* Hero */
+    
 
     .hero {
         min-height: auto;
@@ -1428,7 +1394,7 @@ ul {
     }
 
 
-    /* About */
+    
 
     .about-grid {
         flex-direction: column;
@@ -1439,7 +1405,7 @@ ul {
     }
 
 
-    /* Portfolio */
+    
 
     .portfolio-grid {
         flex-direction: column;
@@ -1454,7 +1420,7 @@ ul {
     }
 
 
-    /* Certificates */
+    
 
     .certificate-grid {
         flex-direction: column;
@@ -1479,7 +1445,7 @@ ul {
     }
 
 
-    /* Members */
+    
 
     .members-grid {
         flex-direction: column;
@@ -1490,7 +1456,7 @@ ul {
     }
 
 
-    /* Footer */
+    
 
     .footer-container {
         flex-direction: column;
@@ -1505,9 +1471,6 @@ ul {
 }
 
 
-/* =========================================================
-   15. SMALL MOBILE
-   ========================================================= */
 
 @media (max-width: 420px) {
 
@@ -1568,11 +1531,7 @@ ul {
 
 }
 
-/* =========================================================
-   16. TAMBAHAN — SERTIFIKAT (halaman utama & certificates.html)
-   ========================================================= */
 
-/* 7 kartu: kartu terakhir otomatis di tengah */
 .certificate-grid {
     justify-content: center;
 }
@@ -1596,7 +1555,7 @@ ul {
     font-weight: 700;
 }
 
-/* Placeholder kalau gambar belum diupload */
+
 .no-image {
     position: relative;
     background: linear-gradient(135deg, #dbeafe, #eff6ff);
@@ -1619,7 +1578,7 @@ ul {
 }
 
 
-/* ---------- Halaman certificates.html ---------- */
+
 
 .member-hero {
     padding: 130px 0 40px;
@@ -1760,7 +1719,7 @@ ul {
     margin-bottom: 0;
 }
 
-/* Navigasi antar anggota */
+
 .member-nav {
     display: flex;
     align-items: center;
@@ -1806,7 +1765,7 @@ ul {
     color: var(--white);
 }
 
-/* Lightbox */
+
 .lightbox {
     position: fixed;
     inset: 0;

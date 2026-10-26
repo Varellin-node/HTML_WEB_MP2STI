@@ -1,8 +1,6 @@
-/* =========================================================
-   script.js — navbar, highlight menu, lightbox sertifikat
-   ========================================================= */
 
-/* ---------- Mobile menu ---------- */
+
+
 const menuToggle = document.getElementById("menuToggle");
 const navMenu = document.getElementById("navMenu");
 
@@ -13,7 +11,7 @@ if (menuToggle && navMenu) {
   );
 }
 
-/* ---------- Highlight menu sesuai posisi scroll (index.html) ---------- */
+
 const navLinks = document.querySelectorAll(".nav-link[data-section]");
 const sections = [...navLinks]
   .map((l) => document.getElementById(l.dataset.section))
@@ -33,7 +31,7 @@ if (sections.length) {
   setActive();
 }
 
-/* ---------- Lightbox (halaman certificates-member-N.html) ---------- */
+
 const lightbox = document.getElementById("lightbox");
 
 if (lightbox) {
@@ -48,7 +46,7 @@ if (lightbox) {
   document.querySelectorAll("[data-zoom]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const img = btn.querySelector("img");
-      if (!img) return; // gambar belum ada
+      if (!img) return; 
       lightboxImg.src = img.src;
       lightboxCaption.textContent = img.alt;
       lightbox.classList.add("open");
